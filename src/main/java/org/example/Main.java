@@ -2,6 +2,15 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        mainMethodShowMessageAble();
+        mainMethodShowInfo();
+    }
+
+    private static void mainMethodShowMessageAble() {
+        System.out.println("Privet Kazakhstan");
+    }
+
+    private static void mainMethodShowInfo() {
+        System.out.println("lets learn Git");
     }
 }
